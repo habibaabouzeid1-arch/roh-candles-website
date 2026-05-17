@@ -1,16 +1,40 @@
-# React + Vite
+# Roh Candles Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart handmade candle ordering website built for Roh Candles. The project solves the problem of unclear customer orders through DMs by providing a clear product browsing, customization, cart, checkout, and order tracking flow.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Product listing with real Roh Candles items
+- Product search and category filter
+- Candle customization by scent, size, packaging, quantity, and gift note
+- Live price calculation
+- Cart and checkout preview
+- Mock order placement
+- Order tracking ID
+- Admin dashboard with stock and order overview
+- Customer reviews
+- Dark mode
+- Responsive design
 
-## React Compiler
+## Problem
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Small handmade candle businesses often receive incomplete orders through social media DMs. Customers may forget to mention candle size, scent, packaging, quantity, or delivery details.
 
-## Expanding the ESLint configuration
+## Solution
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Roh Candles provides a structured ordering experience where customers can browse products, customize their candle, review the price, and submit a mock order with clear details.
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- localStorage
+
+## How to Run
+
+```bash
+npm install
+npm run dev
