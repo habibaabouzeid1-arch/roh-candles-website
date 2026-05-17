@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Roh Candles Website
 
 A smart handmade candle ordering website built for Roh Candles. The project solves the problem of unclear customer orders through DMs by providing a clear product browsing, customization, cart, checkout, and order tracking flow.
@@ -38,3 +39,7 @@ Roh Candles provides a structured ordering experience where customers can browse
 ```bash
 npm install
 npm run dev
+=======
+## Live Website
+https://roh-candles-website.vercel.app
+>>>>>>> a1803a35940e07daa6d7898d24191de5a75f2615
